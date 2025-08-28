@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -26,13 +26,16 @@
 \usepackage{feyn}
 %\renewcommand{\xymatrix}{\Diagram}
 \newcommand{\msout}[1]{\text{\sout{\ensuremath{#1}}}}
+% Added by lyx2lyx
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
 \end_preamble
 \use_default_options true
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -40,7 +43,9 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -74,7 +79,9 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -88,8 +95,8 @@
 \footskip 0.25in
 \secnumdepth 2
 \tocdepth 2
-\paragraph_separation skip
-\defskip smallskip
+\paragraph_separation indent
+\paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style english
@@ -97,11 +104,16 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -148,7 +160,8 @@ shell
 \begin_inset Quotes erd
 \end_inset
 
-, which interprets and executes commands entered in a terminal emulator
+,
+ which interprets and executes commands entered in a terminal emulator
 \end_layout
 
 \begin_layout Itemize
@@ -160,7 +173,8 @@ Several shells have been developed and used over the years
 \color red
 sh
 \color inherit
- The original shell developed in 1977, also called the 
+ The original shell developed in 1977,
+ also called the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -168,7 +182,8 @@ Bourne shell
 \begin_inset Quotes erd
 \end_inset
 
-; still guaranteed to be present in all Unix/Linux systems
+;
+ still guaranteed to be present in all Unix/Linux systems
 \end_layout
 
 \begin_layout Description
@@ -184,7 +199,8 @@ Bourne shell again
 \begin_inset Quotes erd
 \end_inset
 
-, replacement for 
+,
+ replacement for 
 \begin_inset Quotes eld
 \end_inset
 
@@ -192,7 +208,8 @@ sh
 \begin_inset Quotes erd
 \end_inset
 
-; default shell in current Linux distributions.
+;
+ default shell in current Linux distributions.
 \begin_inset Separator latexpar
 \end_inset
 
@@ -302,7 +319,8 @@ Absolute paths start with
 \end_layout
 
 \begin_layout Itemize
-Example, 
+Example,
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -310,7 +328,8 @@ Example,
 \begin_inset Quotes erd
 \end_inset
 
-, the directory where most system tools reside
+,
+ the directory where most system tools reside
 \end_layout
 
 \begin_layout Itemize
@@ -339,8 +358,7 @@ pwd
 \begin_inset Quotes erd
 \end_inset
 
- (print working directory) will display the full absolute path of the current
- working directory
+ (print working directory) will display the full absolute path of the current working directory
 \end_layout
 
 \end_deeper
@@ -408,7 +426,8 @@ If current working directory is
 \begin_inset Quotes eld
 \end_inset
 
-/usr/local/bin, then 
+/usr/local/bin,
+ then 
 \begin_inset Quotes eld
 \end_inset
 
@@ -445,7 +464,8 @@ If current working directory is
 \begin_inset Quotes erd
 \end_inset
 
-, then 
+,
+ then 
 \begin_inset Quotes eld
 \end_inset
 
@@ -513,7 +533,8 @@ If the user's home directory is
 \begin_inset Quotes erd
 \end_inset
 
-, then 
+,
+ then 
 \begin_inset Quotes eld
 \end_inset
 
@@ -790,7 +811,8 @@ Examining Files
 
 \begin_deeper
 \begin_layout FrameSubtitle
-Text files, that is
+Text files,
+ that is
 \end_layout
 
 \begin_layout Description
@@ -949,7 +971,8 @@ file_name
  
 \series default
 \shape default
-Changes date/time of file to current; creates if doesn't exist.
+Changes date/time of file to current;
+ creates if doesn't exist.
 \end_layout
 
 \begin_layout Description
@@ -967,7 +990,8 @@ file_name
  
 \series default
 \shape default
-Simple text editor; creates file if doesn't exist.
+Simple text editor;
+ creates file if doesn't exist.
 \end_layout
 
 \begin_layout Description
@@ -984,7 +1008,8 @@ file_name
 \series default
 \shape default
 \color inherit
- More powerful text editor; creates file if doesn't exist.
+ More powerful text editor;
+ creates file if doesn't exist.
 \end_layout
 
 \begin_layout Description
@@ -1001,8 +1026,8 @@ file_name
 \series default
 \shape default
 \color inherit
- Extremely powerful and extensible text editor; creates file if doesn't
- exist.
+ Extremely powerful and extensible text editor;
+ creates file if doesn't exist.
 \end_layout
 
 \end_deeper
@@ -1018,7 +1043,9 @@ file_name
 status open
 
 \begin_layout Plain Layout
-Moving, Copying, and Deleting Files
+Moving,
+ Copying,
+ and Deleting Files
 \end_layout
 
 \end_inset
@@ -1090,8 +1117,7 @@ dir
 \begin_inset Quotes erd
 \end_inset
 
- is not necessary if directory already exists (but is recommended to avoid
- unintended consequences if the directory does not exist).
+ is not necessary if directory already exists (but is recommended to avoid unintended consequences if the directory does not exist).
 \end_layout
 
 \begin_layout Description
@@ -1201,8 +1227,8 @@ file
 \shape default
 \color black
 Remove file.
- Be careful, there is no undoing this (there is no trash can or recycle
- bin!)
+ Be careful,
+ there is no undoing this (there is no trash can or recycle bin!)
 \end_layout
 
 \begin_layout Description
@@ -1224,7 +1250,9 @@ rm
 \series default
 \shape default
 \color black
-Remove directory, all files in it, and all its subdirectories.
+Remove directory,
+ all files in it,
+ and all its subdirectories.
  
 \color red
 You probably really don't want to do this
@@ -1294,7 +1322,8 @@ wildcards
 \begin_inset Quotes erd
 \end_inset
 
-, which makes operations on multiple files much easier.
+,
+ which makes operations on multiple files much easier.
  Wildcards are a special case of the more general 
 \begin_inset Quotes eld
 \end_inset
@@ -1303,7 +1332,8 @@ regular expressions
 \begin_inset Quotes erd
 \end_inset
 
-, which we will cover in more detail later.
+,
+ which we will cover in more detail later.
 \end_layout
 
 \begin_layout Standard
@@ -1327,8 +1357,7 @@ ls
 
 *
 \color inherit
- List all standard files and the contents of all standard directories in
- the current working directory.
+ List all standard files and the contents of all standard directories in the current working directory.
  
 \end_layout
 
@@ -1349,9 +1378,10 @@ hidden
 \begin_inset Quotes erd
 \end_inset
 
- files in the current working directory, and all non-hidden files in hidden
- directories.
- By default, files whose names start with a 
+ files in the current working directory,
+ and all non-hidden files in hidden directories.
+ By default,
+ files whose names start with a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1438,8 +1468,7 @@ Switches
 
 \begin_deeper
 \begin_layout Standard
-Most Linux commands accept a number of switches which modify the behavior
- of the command.
+Most Linux commands accept a number of switches which modify the behavior of the command.
  We've already seen one example for the 
 \begin_inset Quotes eld
 \end_inset
@@ -1453,8 +1482,7 @@ rm
 \end_layout
 
 \begin_layout Itemize
-For some commands the switches are simple letters or keywords appropriately
- placed.
+For some commands the switches are simple letters or keywords appropriately placed.
 \end_layout
 
 \begin_layout Itemize
@@ -1479,8 +1507,8 @@ And for yet others they are keywords following a double dash
 \end_inset
 
 .
- Newer commands use this format, and some commands also keep the older format
- for compatibility.
+ Newer commands use this format,
+ and some commands also keep the older format for compatibility.
 \end_layout
 
 \begin_layout Block
@@ -1493,7 +1521,8 @@ status open
 
 \end_inset
 
-How can you know? Check the documentation!
+How can you know?
+ Check the documentation!
 \end_layout
 
 \end_deeper
@@ -1562,7 +1591,8 @@ man
 
 \begin_deeper
 \begin_layout Itemize
-Example: 
+Example:
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1592,7 +1622,8 @@ info
 \begin_inset Quotes erd
 \end_inset
 
- section, which provides more detailed information than 
+ section,
+ which provides more detailed information than 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1619,7 +1650,8 @@ info
 
 \begin_deeper
 \begin_layout Itemize
-Example: 
+Example:
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1651,7 +1683,8 @@ Try inline help.
 
 \begin_deeper
 \begin_layout Itemize
-Example: 
+Example:
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1731,7 +1764,10 @@ standard error (stderr)
 
 \begin_deeper
 \begin_layout Itemize
-For example, this is the case for ls, head, and tail.
+For example,
+ this is the case for ls,
+ head,
+ and tail.
  
 \end_layout
 
@@ -1762,8 +1798,10 @@ These can be redirected through use of the following symbols:
 file_name
 \color inherit
  Redirects stdout to a file named file_name.
- If the file does not exist, it is created.
- If it exists, it is overwritten.
+ If the file does not exist,
+ it is created.
+ If it exists,
+ it is overwritten.
 \end_layout
 
 \begin_layout Description
@@ -1776,8 +1814,10 @@ file_name
 file_name
 \color inherit
  Redirects stdout to a file in append mode.
- If the file does not exist, it is created.
- If it exists, the new information is appended to the file.
+ If the file does not exist,
+ it is created.
+ If it exists,
+ the new information is appended to the file.
 \end_layout
 
 \begin_layout Description
@@ -2117,7 +2157,8 @@ The permissions are further broken down as
 \begin_inset space \space{}
 \end_inset
 
-character: 
+character:
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2125,7 +2166,8 @@ character:
 \begin_inset Quotes erd
 \end_inset
 
-=normal file, 
+=normal file,
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2133,7 +2175,8 @@ d
 \begin_inset Quotes erd
 \end_inset
 
-=directory, 
+=directory,
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2141,7 +2184,8 @@ l
 \begin_inset Quotes erd
 \end_inset
 
-=symbolic link, + less seen
+=symbolic link,
+ + less seen
 \end_layout
 
 \begin_layout Description
@@ -2151,7 +2195,11 @@ Characters
 \begin_inset space \space{}
 \end_inset
 
-2-4: Owner permissions for read, write, and execute, respectively
+2-4:
+ Owner permissions for read,
+ write,
+ and execute,
+ respectively
 \end_layout
 
 \begin_layout Description
@@ -2161,7 +2209,11 @@ Characters
 \begin_inset space \space{}
 \end_inset
 
-5-7: Group permissions for read, write, and execute, respectively 
+5-7:
+ Group permissions for read,
+ write,
+ and execute,
+ respectively 
 \end_layout
 
 \begin_layout Description
@@ -2171,7 +2223,11 @@ Characters
 \begin_inset space \space{}
 \end_inset
 
-8-10: World permissions for read, write, and execute, respectively
+8-10:
+ World permissions for read,
+ write,
+ and execute,
+ respectively
 \end_layout
 
 \begin_layout Description
@@ -2181,7 +2237,8 @@ Character
 \begin_inset space \space{}
 \end_inset
 
-11: Indicates alternate access method (eg.
+11:
+ Indicates alternate access method (eg.
  SELinux)
 \end_layout
 
@@ -2235,7 +2292,8 @@ status open
 
 \end_inset
 
-Letters & field positions are redundant; rwxr-xr-x = 0755 octal
+Letters & field positions are redundant;
+ rwxr-xr-x = 0755 octal
 \end_layout
 
 \end_deeper
@@ -2403,8 +2461,8 @@ Link_name
 \begin_layout Itemize
 
 \size scriptsize
-Symbolic links can cross file systems, even link files between local machine
- disk and network file system disks
+Symbolic links can cross file systems,
+ even link files between local machine disk and network file system disks
 \end_layout
 
 \begin_layout Itemize
@@ -2441,8 +2499,7 @@ Shell Scripts
 
 \begin_deeper
 \begin_layout Itemize
-Linux provides a natural way to combine existing commands into customized
- commands using a 
+Linux provides a natural way to combine existing commands into customized commands using a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2462,8 +2519,9 @@ x
 \begin_inset Quotes erd
 \end_inset
 
- permission, and is placed in the user's search path, then it can be invoked
- just like any other Linux shell command.
+ permission,
+ and is placed in the user's search path,
+ then it can be invoked just like any other Linux shell command.
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2472,7 +2530,8 @@ x
 
 \begin_deeper
 \begin_layout Itemize
-For example, 
+For example,
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2485,7 +2544,8 @@ chmod 755 my_command
 
 \end_deeper
 \begin_layout Itemize
-Aside: How does one include custom commands in your search path?
+Aside:
+ How does one include custom commands in your search path?
 \begin_inset Separator latexpar
 \end_inset
 
@@ -2494,8 +2554,7 @@ Aside: How does one include custom commands in your search path?
 
 \begin_deeper
 \begin_layout Itemize
-One way is to add the directory that contains them to your PATH variable
- in your .bash_profile (or .bashrc or .profile) file
+One way is to add the directory that contains them to your PATH variable in your .bash_profile (or .bashrc or .profile) file
 \end_layout
 
 \end_deeper
@@ -2530,8 +2589,7 @@ Environment Variables
 \end_layout
 
 \begin_layout Itemize
-`source` executes a script and adds any environment variables as if run
- by hand
+`source` executes a script and adds any environment variables as if run by hand
 \end_layout
 
 \begin_layout Itemize
@@ -2540,7 +2598,8 @@ Key variables
 
 \begin_deeper
 \begin_layout Itemize
-path: controls what commands are accessible
+path:
+ controls what commands are accessible
 \end_layout
 
 \end_deeper
@@ -2589,7 +2648,11 @@ Literal characters are those that are taken at face value
 \begin_layout Itemize
 
 \size small
-We've already discussed the shell metacharacters *, |, >, <, and >>.
+We've already discussed the shell metacharacters *,
+ |,
+ >,
+ <,
+ and >>.
  Some other shell metacharacters are
 \end_layout
 
@@ -2598,6 +2661,7 @@ We've already discussed the shell metacharacters *, |, >, <, and >>.
 \size small
 \color blue
 ?
+
 \color inherit
  Match any one character
 \end_layout
@@ -2669,12 +2733,14 @@ gcc `ls m*.c`
 \size small
 \color blue
 ;
+
 \color inherit
  Execute a sequence of commands entered in one line (eg.
  
 \size footnotesize
 \color red
-cd other; ls
+cd other;
+ ls
 \size small
 \color inherit
 )
@@ -2748,12 +2814,14 @@ Regular expressions are made up of metacharacters and literal characters
 
 \begin_deeper
 \begin_layout Itemize
-Can be used in arguments to some programs (find, grep, sed, ...)
+Can be used in arguments to some programs (find,
+ grep,
+ sed,
+ ...)
 \end_layout
 
 \begin_layout Itemize
-Some metacharacters behave differently in regular expressions and the command
- line.
+Some metacharacters behave differently in regular expressions and the command line.
 \end_layout
 
 \end_deeper
@@ -2767,7 +2835,9 @@ Alphanumeric
 characters
 \color inherit
  (eg.
- A-Z, a-z, 0-9) match themselves
+ A-Z,
+ a-z,
+ 0-9) match themselves
 \end_layout
 
 \begin_layout Description
@@ -2783,6 +2853,7 @@ characters
 
 \color blue
 ?
+
 \color inherit
  matches 0 or 1 
 \color red
@@ -2881,7 +2952,10 @@ Regular Expressions
 \color blue
 a.?b
 \color inherit
- matches ab, abb, a1b, but not aaab.
+ matches ab,
+ abb,
+ a1b,
+ but not aaab.
 \end_layout
 
 \begin_layout Description
@@ -2890,7 +2964,9 @@ a.?b
 \color blue
 a?b 
 \color inherit
-matches ab, b, but not abb.
+matches ab,
+ b,
+ but not abb.
 \end_layout
 
 \begin_layout Description
@@ -2908,7 +2984,10 @@ a.+b
 \color blue
 [a-z]?1
 \color inherit
- matches 1, a1, z1, but not aa1.
+ matches 1,
+ a1,
+ z1,
+ but not aa1.
 \end_layout
 
 \begin_layout Description
@@ -2917,7 +2996,9 @@ a.+b
 \color blue
 .at
 \color inherit
- matches any three-character string ending with "at", including "hat", "cat",
+ matches any three-character string ending with "at",
+ including "hat",
+ "cat",
  and "bat" 
 \color green
 (this & following examples are from Wikipedia)
@@ -2959,7 +3040,8 @@ a.+b
 \color blue
 ^[hc]at
 \color inherit
- matches "hat" and "cat", but only at the beginning of the string or line.
+ matches "hat" and "cat",
+ but only at the beginning of the string or line.
 \end_layout
 
 \begin_layout Description
@@ -2968,7 +3050,8 @@ a.+b
 \color blue
 [hc]at$
 \color inherit
- matches "hat" and "cat", but only at the end of the string or line.
+ matches "hat" and "cat",
+ but only at the end of the string or line.
 \end_layout
 
 \begin_layout Description
@@ -2981,8 +3064,9 @@ a.+b
 \backslash
 ]
 \color inherit
- matches any single character surrounded by "[" and "]" since the brackets
- are escaped, for example: "[a]" and "[b]".
+ matches any single character surrounded by "[" and "]" since the brackets are escaped,
+ for example:
+ "[a]" and "[b]".
 \end_layout
 
 \begin_layout Description
@@ -2991,8 +3075,9 @@ a.+b
 \color blue
 s.*
 \color inherit
- matches any positive number of characters preceded by s, for example: "saw"
- and "seed".
+ matches any positive number of characters preceded by s,
+ for example:
+ "saw" and "seed".
 \end_layout
 
 \end_deeper
@@ -3104,7 +3189,8 @@ string
 \shape default
  
 \color black
-Echo a string to the terminal; useful in shell scripts
+Echo a string to the terminal;
+ useful in shell scripts
 \end_layout
 
 \begin_layout Description
@@ -3219,7 +3305,8 @@ Copy files to or from a remote computer
 \color blue
 sed 
 \color black
-Stream editor; useful in shell scripts
+Stream editor;
+ useful in shell scripts
 \end_layout
 
 \begin_layout Description
@@ -3285,7 +3372,9 @@ file_name
 \shape default
  
 \color black
-Display number of words, bytes, or lines in a file
+Display number of words,
+ bytes,
+ or lines in a file
 \end_layout
 
 \end_deeper
@@ -3324,7 +3413,8 @@ rsync
 \begin_deeper
 \begin_layout Itemize
 Many of you probably have access to multiple computers.
- For example, you may have
+ For example,
+ you may have
 \begin_inset Separator latexpar
 \end_inset
 
@@ -3468,198 +3558,6 @@ rsync -av ahnitz@example.syracuse.edu:phy607/ ~/phy607
 \end_deeper
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Source Code & File Version Management
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-GIT
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Available since 2005
-\end_layout
-
-\begin_layout Itemize
-Uses a distributed repository model
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Each 
-\begin_inset Quotes eld
-\end_inset
-
-clone
-\begin_inset Quotes erd
-\end_inset
-
- has its own revision history
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Popular for Linux and open source development
-\end_layout
-
-\begin_layout Itemize
-the most popular system at present
-\end_layout
-
-\begin_layout Itemize
-We will use GIT
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-GIT
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout FrameSubtitle
-(Figures from Pro GIT by Chacon & Straub)
-\end_layout
-
-\begin_layout Columns
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Column
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-0.55
-\backslash
-textwidth
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Columns
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-https://github.com/git-guides
-\end_layout
-
-\begin_layout Itemize
-Pro Git by Chacon & Straub: https://progit2.s3.amazonaws.com/en/2015-09-08-d73ca/pr
-ogit-en.816.pdf
-\end_layout
-
-\begin_layout Itemize
-Git - The Simple Guide by Dudler: http://rogerdudler.github.io/git-guide/
-\end_layout
-
-\end_deeper
-\begin_layout Columns
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Column
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-0.35
-\backslash
-textwidth
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../../david/lecture2/distributed_vcs.eps
-	width 100col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Columns
-
-\size footnotesize
-Distributed version control system like GIT
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
 \begin_inset Separator parbreak
 \end_inset
 
