@@ -5,7 +5,17 @@ This assignment must be completed by Sept 2, before the start of class. It will 
 Write a short script in bash to automate a task. You may choose either of the two options, e.g. create your own script or
 implement the one described.
 
-Everyone should carefully read through the set of basic linux commands (https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/). However, you may need to use commands not in the list so be prepared to discover additional commands.
+
+
+
+## Preparation
+
+Everyone must complete the w3school bash crash course and quiz.
+
+ * https://www.w3schools.com/bash/
+ * https://www.w3schools.com/bash/bash_quiz.php
+
+Another useful resource is (https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/).
 
 
 ---

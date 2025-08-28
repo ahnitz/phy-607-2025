@@ -1,4 +1,5 @@
 * Resources for understanding bash
+  * https://www.w3schools.com/bash/
   * https://www.geeksforgeeks.org/basic-linux-commands/
   * https://mywiki.wooledge.org/BashGuide
   * https://guide.bash.academy/
