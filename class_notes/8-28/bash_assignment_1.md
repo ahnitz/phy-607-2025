@@ -1,8 +1,11 @@
 # Bash Scripting Assignment: Automate a Task
 
-Write a short script in bash to automate a task. Either implement the following or come up with your own.
+This assignment must be completed by Sept 2, before the start of class. It will be submitted electronically at the start of class.
 
-Everyone should carefully read through the set of basic linux commands (https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/). However, you may need to use commands not in the list so be prepared to discover additional commands. 
+Write a short script in bash to automate a task. You may choose either of the two options, e.g. create your own script or
+implement the one described.
+
+Everyone should carefully read through the set of basic linux commands (https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/). However, you may need to use commands not in the list so be prepared to discover additional commands.
 
 
 ---
