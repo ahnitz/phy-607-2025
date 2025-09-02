@@ -22,7 +22,7 @@
 
 ### **Homework**
 * Read the guides on GitHub usage and skim the official python tutorials.
-* Read through [https://realpython.com/python-pep8/](https://realpython.com/python-pep8/) and complete.
+* Read through [https://realpython.com/python-pep8/](https://realpython.com/python-pep8/).
 * Create a GitHub account and send me your GitHub name via slack.
 
 ---
