@@ -16,6 +16,9 @@
     * [Python PEP8 Guide](https://realpython.com/python-pep8/)
     * [automatic code formatting (black)](https://black.readthedocs.io/en/stable/)
 
+## Homework
+
+If the code for the in-class assignment is not complete by the end of class, make sure it is completed by the start of next class. You will need to run your code, test potential modifications, and explain your results in the next class.
 
 ## In-class Assignment: Falling Cow Simulator
 
