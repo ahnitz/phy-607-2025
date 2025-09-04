@@ -2,6 +2,7 @@
 
 * Git continued
     * setting up ssh keys
+        * [Example instructions](https://happygitwithr.com/ssh-keys)
     * walk through creating repo
     * resolving merge conflicts
         * [Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
