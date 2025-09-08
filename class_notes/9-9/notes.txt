@@ -1,0 +1,42 @@
+* **Python** ([General Python Reference and Tutorials](https://docs.python.org/3/tutorial/index.html))
+    * Modules
+    * File I/O
+    * Plotting
+
+* **Spherical Cow Assignment**
+    * **Drag-free case**
+        * Assume initial conditions: `vx = 1 m/s`, `vy = 100 m/s`, `drag = 0`, `x0 = 0`, `y0 = 1000`.
+        * Use a time step of `dt = 0.001`.
+        * Write an output file that contains three space-separated columns:
+            * `time`, `position_x`, `position_y`
+            * Post the resulting file to Slack for your group.
+        * Plot the `y` vs. `x` position for the entire trajectory.
+            * On the same plot, work out and show the analytic prediction for the trajectory.
+            * Do they agree?
+        * Plot the kinetic, potential, and total energy as a function of time.
+            * Is the total energy conserved?
+        * Repeat the previous two steps and compare the trajectory for different values of the
+          step size (e..g dt = .1, .01, .001, .0001, .00001).
+            * What pattern do you observe?
+
+    * **Air resistance case**
+        * Set the drag coefficient to `4`.
+        * Are there conserved quantities? Are there any important limits?
+        * Plot the new trajectory and post the corresponding trajectory file.
+
+* **Python Style Guide**
+    * [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
+    * Automatic code formatting with [Black](https://black.readthedocs.io/en/stable/)
+
+* **Git continued**
+    * Resolving merge conflicts
+    * [Resolving a merge conflict using the command line](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+
+* **This Thursday**
+    * Numerical Error
+        * Representation Error
+        * Rounding Error
+        * Approximation / Truncation Error
+            * Euler's method
+            * Implicit / explicit / symplectic integrators
+    * Introduction to Project 1.
