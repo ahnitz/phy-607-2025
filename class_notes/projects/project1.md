@@ -43,7 +43,7 @@ A number of technical components are required for full credit.
 
 ## Required Report [70% of grade]
 
-You must write up a report on your project. The write-up must include a brief description of the physics problems you are analyzing, the integration algorithms you have implemented, and some example results. The report should be formatted similar to a scientific paper with clear sections, figures, and captions. Figures should have adequate and clear captions and should be in support of the discussion in the text.
+You must write up a report on your project. The write-up must include a brief description of the physics problems you are analyzing, the integration algorithms you have implemented, and some example results. The report should be formatted similar to a scientific paper with clear sections, figures, and captions. Figures should have adequate and clear captions and should be in support of the discussion in the text. Statements and claims should be supported as you would in a scientific paper.
 
 There must be a section on the **validation** of your implementations, where you detail your comparison to the analytic solution and test each problem against at least two expected physical properties (e.g., related to conservation rules, limiting cases, key features, etc.).
 
