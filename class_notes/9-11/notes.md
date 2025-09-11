@@ -1,0 +1,25 @@
+- Numerical error
+    - approximation error
+      - Euler's method
+        - explicit vs implicit integration
+      - symplectic integrators
+- Resources
+    - documentation online
+      - [Python 3 Tutorial](https://docs.python.org/3/tutorial/index.html)
+    - google / stackoverflow
+    - [Python Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+- Introduction of project 1 [to be done individually]
+    - **Initial project plan due on Sept 16th**
+      - Prepare a written summary of your plan which we will discuss next Tuesday
+    - Initial project plan
+      - (a) Pick an ODE with one dimension to solve numerically
+      - (b) Pick an integral with one dimension to solve numerically
+      - The integral and ODE should have an exact solution
+      - You should write down at least two physical behaviors which can be verified for (a) and (b), e.g. conservation laws, limiting scenarios, etc.
+    - **Full Project Due Sep 25th**
+- Next class
+  - finite precision error
+  - more on implicit integrators
+  - oscillatory functions
+  - "stiff" equations
+  - Runge kutta
