@@ -28,4 +28,5 @@
           between the various methods.
 * Out of class review
     * [Python Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
-    * Review chapter 21 / 22
+        * Review chapter 21 / 22
+    * Review PEP8 guidelines, install black and test it out
