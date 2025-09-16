@@ -4,6 +4,7 @@
     * `google` / `stackoverflow`
 * python environments
     * `venv` / `conda`
+    * See e.g. [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
 * packages
     * `matplotlib` / `numpy` / `scipy`
 * Style guide
