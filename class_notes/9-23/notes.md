@@ -14,7 +14,7 @@
     * time / space
        * best / average / worst
     * what is the computational complexity of common algorithms?
-    * search
+    * search / sort
     * time complexity in python
         * https://wiki.python.org/moin/TimeComplexity
 * In groups of 3-4
