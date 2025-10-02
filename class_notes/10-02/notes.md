@@ -1,6 +1,8 @@
 * Project 1 discussion
 * Project 2 proposals due Next Tuesday, I will return comments on these by
     * thursday morning.
+* Next Tuesday: Work on the inclass monte-carlo exercises. The final plots / code will be collected.
+* Next Thursday: Work in your groups on Project 2. A summary of progress in class will be collected.
 * Variance reduction in monte-carlo methods / sampling
     * An example with rejection sampling
     * Importance sampling
@@ -10,6 +12,7 @@
 * profiling
    * https://docs.python.org/3/library/profile.html#module-cProfile
 * numpy arrays
+
 * [in-class group work]
     Implement sorting algorithm that works with your extended precision class.
     * Implement both a bubble sort and a merger sort
