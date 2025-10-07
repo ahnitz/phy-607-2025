@@ -1,5 +1,6 @@
 * Project 2 proposals due today, I will return comments on these by thursday morning.
 
+* [Useful discussion of monte-carlo integration](https://people.duke.edu/~ccc14/sta-663/MonteCarlo.html#monte-carlo-integration)
 
 * [To be done today and Thursday]
    * Do these in groups of 2-3. If you group gets stuck
