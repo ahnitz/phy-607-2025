@@ -14,18 +14,18 @@
            multiple times and use independent random numbers in each instance,
            each estimate will itself be unbiased. Estimate the uncertainties
            by looking at the distribution independent integral estimates.
-         * Consider two cases, where the ellipse parameters are a=5, b=2
-            * Calculating the areas of an ellipse. Compare to the analytic
-              answer. Verify that the uncertainty in this estimates scales
-              with N^(1/2). 
-            * Calculating the circumference of an ellipse.
-                - How does the uncertainty scale with the number of samples?
-                  Plot the statistical uncertainty as a function of the number of
-                  samples.
-                - What can you do to improve the overall efficiency (but not
-                  the scaling with N samples) of the calculation? Compare a 
-                  naive (say uniform over the space) proposal distribution
-                  to one you design to improve the variance of the estimates.
+         * Consider where the ellipse parameters are a=5, b=2
+         * Calculating the area of the ellipse. Compare to the analytic
+           answer. Verify that the uncertainty in this estimates scales
+           with N^(1/2). 
+         * Calculating the circumference of the ellipse.
+         * How does the uncertainty scale with the number of samples?
+           Plot the statistical uncertainty as a function of the number of
+           samples.
+         * What can you do to improve the overall efficiency (but not
+           the scaling with N samples) of the calculation? Compare a 
+           naive (say uniform over the space) proposal distribution
+           to one you design to improve the variance of the estimates.
             
 * Timing
    * Use %timit in the python intepretor
