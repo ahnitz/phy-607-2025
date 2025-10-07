@@ -7,7 +7,7 @@
      please discuss with other groups.
    - (1) implement inverse CDF and rejection sampling with a simple exponential function defined on the range from 0 to 1.
          - try with a uniform distribution
-         - check that with both methods the resulting samples have
+         - check that with both methods the resulting samples have\
            the correct distribution.
    - (2) Monte-carlo integration: Ellipses
          - Determine how you will estimate the uncertainty of the integral
