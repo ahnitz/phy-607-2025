@@ -1,11 +1,5 @@
-* Project 2 proposals due today, I will return comments on these by
-    * thursday morning.
-* Timing
-   * Use %timit in the python intepretor
-   * Time your script or algorithm that demonstrates your high-precision type
-* profiling
-   * https://docs.python.org/3/library/profile.html#module-cProfile
-* numpy arrays
+* Project 2 proposals due today, I will return comments on these by thursday morning.
+
 
 * [To be done today and Thursday]
    * Do these in groups of 2-3. If you group gets stuck
@@ -25,12 +19,16 @@
               answer. Verify that the uncertainty in this estimates scales
               with N^(1/2). 
             * Calculating the circumference of an ellipse.
-                * How does the uncertainty scale with the number of samples?
+                - How does the uncertainty scale with the number of samples?
                   Plot the statistical uncertainty as a function of the number of
                   samples.
-                * What can you do to improve the overall efficiency (but not
+                - What can you do to improve the overall efficiency (but not
                   the scaling with N samples) of the calculation? Compare a 
                   naive (say uniform over the space) proposal distribution
                   to one you design to improve the variance of the estimates.
             
-
+* Timing
+   * Use %timit in the python intepretor
+   * Time your script or algorithm that demonstrates your high-precision type
+* profiling
+   * https://docs.python.org/3/library/profile.html#module-cProfile
