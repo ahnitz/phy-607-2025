@@ -11,9 +11,9 @@
     * failure modes?
         * global vs local
     * transforming to other problems
-    * nelder-mead (optional)
+    * nelder-mead
 * In-class assignment 
-    * Use brute-force, gradient descent, and newton's method to
+    * Use brute-force, gradient descent, and newton's method, and nelder-mead to
       find the minima of the 2-d rosenbrock function
         * Use the provided script to see how to generate the rosenbrock function
           with scipy use the same explicit ranges as in the script
@@ -25,5 +25,6 @@
          * Does it get stuck at any other locations?
          * For gradient descent, try different step size scale factors. How
            does this change the convergence?
-    * Plot the the path that each iteration traverses through
-        * Compare the path that gradient descent vs newton's method takes
+    * Plot the the path that each iteration traverses through for all
+      methods (except brute-force).
+        * Compare the paths that each take
