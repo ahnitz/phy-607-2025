@@ -13,7 +13,7 @@
     * transforming to other problems
     * nelder-mead (optional)
 * In-class assignment 
-    * Use explicit gradient descent and newton's method to
+    * Use brute-force, gradient descent, and newton's method to
       find the minima of the 2-d rosenbrock function
         * Use the provided script to see how to generate the rosenbrock function
           with scipy use the same explicit ranges as in the script
@@ -23,5 +23,7 @@
     * Start each method at each of the 4 corners? How many iterations does
       it take for each method to get within 1e-10 of the minimum value (0).
          * Does it get stuck at any other locations?
+         * For gradient descent, try different step size scale factors. How
+           does this change the convergence?
     * Plot the the path that each iteration traverses through
         * Compare the path that gradient descent vs newton's method takes
