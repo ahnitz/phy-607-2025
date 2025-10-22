@@ -26,7 +26,7 @@
     * (4) compare the ability of each model in the group to fit to the
           data
 
-Next class       
+* Next class       
     * goodness of fit
         * adjusted R^2
     * incorporating noise in your model
