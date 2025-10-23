@@ -20,7 +20,7 @@
 
 * in-class exercise 2 [in groups of 3], to be continued next class
     * (1) develop a model for the data, each group member should try a 
-          different model
+          different model. The model must contain at least 4 parameters.
     * (2) each person should use one of their minimizers to fit the data
     * (3) test the goodness of fit by calculating the adjusted R^2 [next class]
     * (4) compare the ability of each model in the group to fit to the
