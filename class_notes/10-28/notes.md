@@ -4,7 +4,7 @@
     * Next class
        * Connection to likelihoods / bayes theorem
 
-* in-class exercise 2 [in groups of 3], to be continued next class
+* in-class exercise 2 [in groups of 3]
     * (1) develop a model for the data, each group member should try a 
           different model. The model must contain at least 4 parameters.
     * (2) each person should use one of their minimizers to fit the data
