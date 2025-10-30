@@ -1,4 +1,4 @@
- Project 3
+ * Project 3
     * Timeline
         * Nov 7:  your project should be decided.
         * Nov 14: principle code and testing should be concluded
