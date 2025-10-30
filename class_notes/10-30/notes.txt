@@ -1,0 +1,27 @@
+* incorporating noise in your model
+    * fitted peak value --> distribution of fits
+        * Resampling
+        * Bootstrapping (e.g. https://en.wikipedia.org/wiki/Bootstrapping_(statistics)
+        * Propagation of errors (requires assumption of noise model)
+    * Bayes theorem
+    * likelihoods
+        * example with known noise distribution
+* MCMC
+    * metropolis hastings
+    * burn-in
+    * autocorrelation
+    * convergence
+    * ensemble sampling
+* in-class work [also continued next class]
+    * Write a likelihood assuming the data contains your model plus additive
+      Gaussian (unit variance) noise.
+    * write a 500 walker ensemble MCMC and run for 1000 iterations
+    * Plot the distribution of the walker positons after every 100 iterations.
+      How does the distribution evolve?
+      Has the distribution converged?
+* Next class
+    * failure modes
+    * dealing with correlations
+    * convergence tests
+    * Can we compare models?
+* Project 3
