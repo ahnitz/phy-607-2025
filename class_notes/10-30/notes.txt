@@ -12,7 +12,7 @@
     * autocorrelation
     * convergence
     * ensemble sampling
-* in-class work [also continued next class]
+* in-class work [also continued next class], work in groups of 2-3
     * Write a likelihood assuming the data contains your model plus additive
       Gaussian (unit variance) noise.
     * write a 500 walker ensemble MCMC and run for 1000 iterations
