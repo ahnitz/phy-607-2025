@@ -2,7 +2,7 @@
     * Timeline
         * Nov 7:  your project should be decided.
         * Nov 14: principle code and testing should be concluded
-        * Nov 17: submit report along with final code
+        * Nov 18: submit report along with final code
     * Will be done in groups of 2
     * write a single report & submit a single git repository with the developed code
     * Conceptual elements
