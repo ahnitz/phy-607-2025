@@ -1,0 +1,20 @@
+* Project 3 intro
+* Comparison of models
+* MCMC
+    * metropolis hastings
+    * burn-in
+    * autocorrelation
+    * convergence
+        * Gelman-Rubin statistic
+    * ensemble sampling
+* in-class work, work in groups of 2-3
+    * Write a likelihood assuming the data contains your model plus additive
+      Gaussian (unit variance) noise.
+    * write a 500 walker ensemble MCMC and run for 1000 iterations
+    * Plot the distribution of the walker positons after every 100 iterations.
+      How does the distribution evolve?
+      Has the distribution converged?
+* Assignment out of class
+    * Read through the roundtable discussion PDF on mcmc in practice.
+* Next class
+    * Add tests of convergence to your example model
