@@ -16,6 +16,7 @@
       Has the distribution converged?
 * in-class, examining correlations and convergence
     * Install the packages in requirements.txt
+    * Use the 'corner' package to make a plot for the MCMC chains from your model.
     * Examine 'corre.py' in the class folder for today. This demonstrates
       how to calculate the autocorrelation time for an mcmc chain. Note that
       the ACT/ACL only applies to a specific parameter of a chain, and a 
