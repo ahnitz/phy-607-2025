@@ -27,15 +27,13 @@
       Separately, take the final sample from each chain and calculate the
       variance of that set. How do these variances compare? Is it consistent
       with the chains having converged?
-* ### Group Assignment: Computational Physics In-Example Activity
 
-**Assignment Title:** N-Body Simulation of Particle Interactions in a Fluid to Model Drag
+
+**Assignment Title:** (Thursday) N-Body Simulation of Particle Interactions in a Fluid to Model Drag
 
 **Objective:** The aim of this project is to create a primitive n-body simulation to model the interactions between a projectile and particles in a fluid.
 
-**Split into 3 groups
-
-### Specific Task Description
+**Split into 2 groups
 
 1. **Joint Discussion and Pseudocode Planning (30 minutes):**
     - Understand the basic principles of n-body simulations and how they can be used to model fluid dynamics and drag forces.
@@ -52,3 +50,5 @@
         - Writes the core module(s) for calculating forces between particles, updating positions and velocities, and handling boundary conditions.
     - **Unit Test Developer (1 person):**
         - Designs and implements unittests to verify the accuracy and stability of the force calculations and the integration scheme.
+        
+ 3. Each group will submit a summary of the days activity and plan at the end of class on Thursday. 

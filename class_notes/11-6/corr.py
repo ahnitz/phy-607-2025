@@ -57,7 +57,7 @@ def direct_autocorr(chain, max_lag=None):
     tau_estimate = 1.0 + 2.0 * np.sum(rho[1:cutoff])
     return tau_estimate, rho
 
-N = 500000
+N = 40000
 
 # 1. Independent Chain (White Noise)
 # Theoretical ACL should be 1.0
